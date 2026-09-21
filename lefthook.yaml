@@ -35,4 +35,4 @@ pre-push:
 post-commit:
   commands:
     graph-spec-design:
-      run: graph-spec-design . --code-only --update --no-viz
+      run: C:/Users/Leandro/.local/bin/graph-spec-design.exe . --code-only --update --no-viz
