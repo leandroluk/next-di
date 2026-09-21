@@ -2,10 +2,12 @@
 
 ## Current Work
 
-- Implementação completa do sistema de módulos NestJS-like concluída com sucesso. Todas as tarefas T-001 a T-008 finalizadas e verificadas com 25 testes unitários e build de produção tsdown.
+- Implementação completa do sistema de módulos NestJS-like concluída com sucesso. Documentação Docsify completa em en-US, README detalhado, pipeline de CI/CD para release no npm e limpeza do repositório finalizados.
 
 ## Recent Progress (Last 10)
 
+- 2026-09-20 Limpeza de repositório: remoção de `INSIGHT.md` e adição ao `.gitignore`.
+- 2026-09-20 Criação do site de documentação Docsify em `docs/`, `README.md` detalhado (en-US) e GitHub Actions `.github/workflows/ci.yml`.
 - 2026-09-20 T-008 complete. Gate: 2/2 pass. [REQ-009, REQ-010]
 - 2026-09-20 T-007 complete. Gate: 3/3 pass. [REQ-010]
 - 2026-09-20 T-006 complete. Gate: 2/2 pass. [REQ-009, REQ-010]
@@ -14,7 +16,6 @@
 - 2026-09-20 T-003 complete. Gate: 6/6 pass. [REQ-001, REQ-002, REQ-005, REQ-008]
 - 2026-09-20 T-002 complete. Gate: 5/5 pass. [REQ-001, REQ-003, REQ-004]
 - 2026-09-20 T-001 complete. Setup tsdown, oxlint, oxfmt, lefthook e vitest. Gate: 1/1 pass. [REQ-001]
-- 2026-09-20 [module-system] Especificação, Design e Tasks criados no .specs/.
 
 ## Recent Decisions (Last 15)
 
