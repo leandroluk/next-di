@@ -497,20 +497,20 @@
       "why": "connects across different repos/directories; bridges separate communities; peripheral node `AppModule` unexpectedly reaches hub `Module()`"
     },
     {
-      "source": "AppModule",
+      "source": "RootModule",
       "target": "Module()",
-      "source_files": ["tests/core/factory.spec.ts", "src/decorator/module.decorator.ts"],
+      "source_files": ["tests/next/next.spec.ts", "src/decorator/module.decorator.ts"],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; bridges separate communities; peripheral node `AppModule` unexpectedly reaches hub `Module()`"
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `RootModule` unexpectedly reaches hub `Module()`"
     },
     {
-      "source": "AppModuleAsync",
+      "source": "CartModule",
       "target": "Module()",
-      "source_files": ["tests/core/factory.spec.ts", "src/decorator/module.decorator.ts"],
+      "source_files": ["tests/react/react.spec.tsx", "src/decorator/module.decorator.ts"],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; bridges separate communities; peripheral node `AppModuleAsync` unexpectedly reaches hub `Module()`"
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `CartModule` unexpectedly reaches hub `Module()`"
     },
     {
       "source": "ModuleA",
@@ -521,12 +521,12 @@
       "why": "connects across different repos/directories; bridges separate communities; peripheral node `ModuleA` unexpectedly reaches hub `Module()`"
     },
     {
-      "source": "RootModule",
+      "source": "AppModule",
       "target": "Module()",
-      "source_files": ["tests/next/next.spec.ts", "src/decorator/module.decorator.ts"],
+      "source_files": ["tests/core/factory.spec.ts", "src/decorator/module.decorator.ts"],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; bridges separate communities; peripheral node `RootModule` unexpectedly reaches hub `Module()`"
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `AppModule` unexpectedly reaches hub `Module()`"
     }
   ],
   "tokens": {
