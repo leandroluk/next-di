@@ -1,0 +1,85 @@
+{
+  "name": "next-di",
+  "version": "0.1.0",
+  "description": "Modular, declarative dependency injection container for Next.js inspired by NestJS",
+  "keywords": [
+    "clean-architecture",
+    "decorators",
+    "dependency-injection",
+    "di",
+    "ioc",
+    "nestjs",
+    "nextjs"
+  ],
+  "license": "MIT",
+  "author": "leandroluk",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.mjs"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.mts",
+      "import": "./dist/react/index.mjs",
+      "require": "./dist/react/index.cjs",
+      "default": "./dist/react/index.mjs"
+    },
+    "./next": {
+      "types": "./dist/next/index.d.mts",
+      "import": "./dist/next/index.mjs",
+      "require": "./dist/next/index.cjs",
+      "default": "./dist/next/index.mjs"
+    }
+  },
+  "scripts": {
+    "prepare": "lefthook install",
+    "build": "tsdown",
+    "format": "oxfmt --write .",
+    "lint": "oxlint src tests --fix",
+    "lint:ci": "oxfmt --check . && oxlint src tests",
+    "check": "oxlint src tests && tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@commitlint/types": "^21.2.3",
+    "@swc/core": "^1.16.2",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint-plugin-sonarjs": "^4.2.1",
+    "lefthook": "^2.1.14",
+    "next": "^15.1.0",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsdown": "^0.23.0",
+    "typescript": "^5.7.3",
+    "unplugin-swc": "^1.6.0",
+    "vitest": "^3.0.5"
+  },
+  "peerDependencies": {
+    "next": ">=14.0.0",
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "next": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  }
+}
