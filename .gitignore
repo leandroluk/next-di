@@ -17,3 +17,5 @@ dist
 # QA agent temporaries
 .qa/
 tests/__qa__/
+
+INSIGHT.md
