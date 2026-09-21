@@ -11,8 +11,25 @@
     "nestjs",
     "nextjs"
   ],
+  "homepage": "https://leandroluk.github.io/next-di",
+  "bugs": {
+    "url": "https://github.com/leandroluk/next-di/issues"
+  },
   "license": "MIT",
-  "author": "leandroluk",
+  "author": {
+    "name": "Leandro Santiago Gomes",
+    "email": "leandroluk@gmail.com",
+    "url": "https://linkedin.com/in/leandroluk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroluk/next-di.git"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -36,6 +53,10 @@
       "require": "./dist/next/index.cjs",
       "default": "./dist/next/index.mjs"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   },
   "scripts": {
     "prepare": "lefthook install",
