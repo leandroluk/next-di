@@ -3,7 +3,7 @@
   "jsPlugins": ["eslint-plugin-sonarjs"],
   "ignorePatterns": ["**/dist/**", "**/node_modules/**", "**/.coverage/**", "*.config.*"],
   "rules": {
-    "typescript/no-explicit-any": "warn",
+    "typescript/no-explicit-any": "off",
     "typescript/no-namespace": "error",
     "typescript/consistent-type-imports": "off",
     "typescript/explicit-function-return-type": "off",
