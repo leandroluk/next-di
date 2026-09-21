@@ -488,8 +488,8 @@
       "degree": 11
     },
     {
-      "id": "src_decorator_injectable_as_decorator_injectableas",
-      "label": "InjectableAs",
+      "id": "ref_vitest",
+      "label": "vitest",
       "degree": 10
     }
   ],
