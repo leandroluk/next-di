@@ -72,8 +72,11 @@ jobs:
         id: check
         run: |
           VERSION=$(node -p "require('./package.json').version")
-          if git show-ref --tags "refs/tags/v$VERSION" --quiet; then
-            echo "Version v$VERSION already exists. Skipping publish."
+          NAME=$(node -p "require('./package.json').name")
+          TAG_EXISTS=$(git tag -l "v$VERSION")
+          NPM_EXISTS=$(npm view "$NAME@$VERSION" version --silent || echo "")
+          if [ -n "$TAG_EXISTS" ] || [ -n "$NPM_EXISTS" ]; then
+            echo "Version v$VERSION already published or tagged. Skipping publish."
             echo "publish=false" >> $GITHUB_OUTPUT
           else
             echo "New version v$VERSION detected. Will publish."
