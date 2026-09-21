@@ -102,5 +102,6 @@
     "react": {
       "optional": true
     }
-  }
+  },
+  "packageManager": "pnpm@10.5.2"
 }
