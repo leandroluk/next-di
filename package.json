@@ -1,6 +1,6 @@
 {
   "name": "next-di",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Modular, declarative dependency injection container for Next.js inspired by NestJS",
   "keywords": [
     "clean-architecture",
