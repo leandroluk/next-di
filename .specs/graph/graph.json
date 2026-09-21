@@ -4,388 +4,28 @@
   "graph": {},
   "nodes": [
     {
-      "id": "src_core_module_ref_providerbinding",
-      "label": "ProviderBinding",
+      "id": "src_core_factory_nextdiapplicationcontext",
+      "label": "NextDiApplicationContext",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 0,
       "file_type": "code",
-      "norm_label": "providerbinding",
-      "source_file": "src/core/module-ref.ts",
-      "source_location": "L4"
-    },
-    {
-      "id": "src_core_scanner_moduleinput",
-      "label": "ModuleInput",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "moduleinput",
-      "source_file": "src/core/scanner.ts",
-      "source_location": "L7"
-    },
-    {
-      "id": "src_core_tokens_abstracttype",
-      "label": "AbstractType",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "abstracttype",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L5"
-    },
-    {
-      "id": "src_core_tokens_classprovider",
-      "label": "ClassProvider",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "classprovider",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L14"
-    },
-    {
-      "id": "src_core_tokens_customprovider",
-      "label": "CustomProvider",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "customprovider",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L39"
-    },
-    {
-      "id": "src_core_tokens_dynamicmodule",
-      "label": "DynamicModule",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "dynamicmodule",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L43"
-    },
-    {
-      "id": "src_core_tokens_existingprovider",
-      "label": "ExistingProvider",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "existingprovider",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L33"
-    },
-    {
-      "id": "src_core_tokens_factoryprovider",
-      "label": "FactoryProvider",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "factoryprovider",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L26"
-    },
-    {
-      "id": "src_core_tokens_forwardreference",
-      "label": "ForwardReference",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "forwardreference",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L52"
-    },
-    {
-      "id": "src_core_tokens_optionalfactorydependency",
-      "label": "OptionalFactoryDependency",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "optionalfactorydependency",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L9"
-    },
-    {
-      "id": "src_core_tokens_provider",
-      "label": "Provider",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "provider",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L41"
-    },
-    {
-      "id": "src_core_tokens_type",
-      "label": "Type",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_tokens_valueprovider",
-      "label": "ValueProvider",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "valueprovider",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L20"
-    },
-    {
-      "id": "src_decorator_inject_decorator_paraminjectionmetadata",
-      "label": "ParamInjectionMetadata",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "paraminjectionmetadata",
-      "source_file": "src/decorator/inject.decorator.ts",
-      "source_location": "L3"
-    },
-    {
-      "id": "src_decorator_module_decorator_modulemetadata",
-      "label": "ModuleMetadata",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "modulemetadata",
-      "source_file": "src/decorator/module.decorator.ts",
-      "source_location": "L10"
-    },
-    {
-      "id": "src_factory_class_auto_injectable_module_autoinjectablemoduleconstructor",
-      "label": "AutoInjectableModuleConstructor",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "autoinjectablemoduleconstructor",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L19"
-    },
-    {
-      "id": "src_factory_class_auto_injectable_module_autoinjectablemodulefn",
-      "label": "AutoInjectableModuleFn",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "autoinjectablemodulefn",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L55"
-    },
-    {
-      "id": "src_factory_class_auto_injectable_module_autoinjectablemoduleoptions",
-      "label": "AutoInjectableModuleOptions",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "autoinjectablemoduleoptions",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L5"
-    },
-    {
-      "id": "src_factory_class_configurable_module_configurablemoduleconstructor",
-      "label": "ConfigurableModuleConstructor",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "configurablemoduleconstructor",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L29"
-    },
-    {
-      "id": "src_factory_class_configurable_module_configurablemodulefoorrootasyncconfig",
-      "label": "ConfigurableModuleFoorRootAsyncConfig",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "configurablemodulefoorrootasyncconfig",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L20"
-    },
-    {
-      "id": "src_factory_class_configurable_module_configurablemoduleoptions",
-      "label": "ConfigurableModuleOptions",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "configurablemoduleoptions",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L4"
-    },
-    {
-      "id": "src_factory_class_configurable_module_resolveinject",
-      "label": "ResolveInject",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "resolveinject",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L16"
-    },
-    {
-      "id": "src_factory_class_configurable_module_resolvetoken",
-      "label": "ResolveToken",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "resolvetoken",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L8"
-    },
-    {
-      "id": "src_factory_class_selectable_module_baseselectableconfig",
-      "label": "BaseSelectableConfig",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "baseselectableconfig",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L36"
-    },
-    {
-      "id": "src_factory_class_selectable_module_extractconfigtype",
-      "label": "ExtractConfigType",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "extractconfigtype",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L27"
-    },
-    {
-      "id": "src_factory_class_selectable_module_hasforrootasync",
-      "label": "HasForRootAsync",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "hasforrootasync",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L8"
-    },
-    {
-      "id": "src_factory_class_selectable_module_importitem",
-      "label": "ImportItem",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "importitem",
-      "source_file": "src/factory-class/selectable-module.ts",
+      "norm_label": "nextdiapplicationcontext",
+      "source_file": "src/core/factory.ts",
       "source_location": "L6"
     },
     {
-      "id": "src_factory_class_selectable_module_resolveinject",
-      "label": "ResolveInject",
+      "id": "src_core_factory_nextdifactory",
+      "label": "NextDiFactory",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 0,
       "file_type": "code",
-      "norm_label": "resolveinject",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L23"
-    },
-    {
-      "id": "src_factory_class_selectable_module_resolvetoken",
-      "label": "ResolveToken",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "resolvetoken",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L15"
-    },
-    {
-      "id": "src_factory_class_selectable_module_selectablemoduleconfig",
-      "label": "SelectableModuleConfig",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "selectablemoduleconfig",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L42"
-    },
-    {
-      "id": "src_factory_class_selectable_module_selectablemoduleconstructor",
-      "label": "SelectableModuleConstructor",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "selectablemoduleconstructor",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L68"
-    },
-    {
-      "id": "src_factory_class_selectable_module_selectablemoduleproviders",
-      "label": "SelectableModuleProviders",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "selectablemoduleproviders",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L63"
+      "norm_label": "nextdifactory",
+      "source_file": "src/core/factory.ts",
+      "source_location": "L49"
     },
     {
       "id": "src_decorator_injectable_decorator_injectableoptions",
@@ -393,7 +33,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "injectableoptions",
       "source_file": "src/decorator/injectable.decorator.ts",
@@ -405,11 +45,23 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "withnextdioptions",
       "source_file": "src/next/with-next-di.ts",
       "source_location": "L1"
+    },
+    {
+      "id": "src_react_provider_nextdiproviderprops",
+      "label": "NextDiProviderProps",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "nextdiproviderprops",
+      "source_file": "src/react/provider.tsx",
+      "source_location": "L7"
     },
     {
       "id": "tests_api_api_spec_appmodule",
@@ -417,7 +69,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "appmodule",
       "source_file": "tests/api/api.spec.ts",
@@ -429,7 +81,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "dummyservice",
       "source_file": "tests/api/api.spec.ts",
@@ -441,7 +93,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "greeterservice",
       "source_file": "tests/api/api.spec.ts",
@@ -453,7 +105,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "rootmodule",
       "source_file": "tests/next/next.spec.ts",
@@ -465,7 +117,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "serverservice",
       "source_file": "tests/next/next.spec.ts",
@@ -477,7 +129,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "cartadapter",
       "source_file": "tests/react/react.spec.tsx",
@@ -489,7 +141,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "cartmodule",
       "source_file": "tests/react/react.spec.tsx",
@@ -501,7 +153,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "cartport",
       "source_file": "tests/react/react.spec.tsx",
@@ -513,11 +165,407 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "purebadgeprops",
       "source_file": "tests/react/react.spec.tsx",
       "source_location": "L54"
+    },
+    {
+      "id": "src_core_module_ref_providerbinding",
+      "label": "ProviderBinding",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "providerbinding",
+      "source_file": "src/core/module-ref.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_core_scanner_moduleinput",
+      "label": "ModuleInput",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "moduleinput",
+      "source_file": "src/core/scanner.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_core_tokens_abstracttype",
+      "label": "AbstractType",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "abstracttype",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_core_tokens_classprovider",
+      "label": "ClassProvider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "classprovider",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_core_tokens_customprovider",
+      "label": "CustomProvider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "customprovider",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L39"
+    },
+    {
+      "id": "src_core_tokens_dynamicmodule",
+      "label": "DynamicModule",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "dynamicmodule",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L43"
+    },
+    {
+      "id": "src_core_tokens_existingprovider",
+      "label": "ExistingProvider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "existingprovider",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L33"
+    },
+    {
+      "id": "src_core_tokens_factoryprovider",
+      "label": "FactoryProvider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "factoryprovider",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L26"
+    },
+    {
+      "id": "src_core_tokens_forwardreference",
+      "label": "ForwardReference",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "forwardreference",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L52"
+    },
+    {
+      "id": "src_core_tokens_optionalfactorydependency",
+      "label": "OptionalFactoryDependency",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "optionalfactorydependency",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_core_tokens_provider",
+      "label": "Provider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "provider",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L41"
+    },
+    {
+      "id": "src_core_tokens_type",
+      "label": "Type",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_tokens_valueprovider",
+      "label": "ValueProvider",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "valueprovider",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_decorator_inject_decorator_paraminjectionmetadata",
+      "label": "ParamInjectionMetadata",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "paraminjectionmetadata",
+      "source_file": "src/decorator/inject.decorator.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "src_decorator_module_decorator_modulemetadata",
+      "label": "ModuleMetadata",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "modulemetadata",
+      "source_file": "src/decorator/module.decorator.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_autoinjectablemoduleconstructor",
+      "label": "AutoInjectableModuleConstructor",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "autoinjectablemoduleconstructor",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_autoinjectablemodulefn",
+      "label": "AutoInjectableModuleFn",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "autoinjectablemodulefn",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L55"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_autoinjectablemoduleoptions",
+      "label": "AutoInjectableModuleOptions",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "autoinjectablemoduleoptions",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_resolvedproviders",
+      "label": "ResolvedProviders",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "resolvedproviders",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_factory_class_configurable_module_configurablemoduleconstructor",
+      "label": "ConfigurableModuleConstructor",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "configurablemoduleconstructor",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L29"
+    },
+    {
+      "id": "src_factory_class_configurable_module_configurablemodulefoorrootasyncconfig",
+      "label": "ConfigurableModuleFoorRootAsyncConfig",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "configurablemodulefoorrootasyncconfig",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_factory_class_configurable_module_configurablemoduleoptions",
+      "label": "ConfigurableModuleOptions",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "configurablemoduleoptions",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_factory_class_configurable_module_resolveinject",
+      "label": "ResolveInject",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "resolveinject",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "src_factory_class_configurable_module_resolvetoken",
+      "label": "ResolveToken",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "resolvetoken",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_factory_class_selectable_module_baseselectableconfig",
+      "label": "BaseSelectableConfig",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "baseselectableconfig",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_factory_class_selectable_module_extractconfigtype",
+      "label": "ExtractConfigType",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "extractconfigtype",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "src_factory_class_selectable_module_hasforrootasync",
+      "label": "HasForRootAsync",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "hasforrootasync",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_factory_class_selectable_module_importitem",
+      "label": "ImportItem",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "importitem",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "src_factory_class_selectable_module_resolveinject",
+      "label": "ResolveInject",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "resolveinject",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_factory_class_selectable_module_resolvetoken",
+      "label": "ResolveToken",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "resolvetoken",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_factory_class_selectable_module_selectablemoduleconfig",
+      "label": "SelectableModuleConfig",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "selectablemoduleconfig",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L42"
+    },
+    {
+      "id": "src_factory_class_selectable_module_selectablemoduleconstructor",
+      "label": "SelectableModuleConstructor",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "selectablemoduleconstructor",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L68"
+    },
+    {
+      "id": "src_factory_class_selectable_module_selectablemoduleproviders",
+      "label": "SelectableModuleProviders",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "selectablemoduleproviders",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L63"
     },
     {
       "id": "tests_core_container_spec_consumerservice",
@@ -628,48 +676,12 @@
       "source_location": "L11"
     },
     {
-      "id": "src_decorator_injectable_as_decorator_injectableasdecorator",
-      "label": "InjectableAsDecorator",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 14,
-      "file_type": "code",
-      "norm_label": "injectableasdecorator",
-      "source_file": "src/decorator/injectable-as.decorator.ts",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_decorator_injectable_as_decorator_injectableasmetadata",
-      "label": "InjectableAsMetadata",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 14,
-      "file_type": "code",
-      "norm_label": "injectableasmetadata",
-      "source_file": "src/decorator/injectable-as.decorator.ts",
-      "source_location": "L7"
-    },
-    {
-      "id": "src_decorator_injectable_as_decorator_injectableasoptions",
-      "label": "InjectableAsOptions",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 14,
-      "file_type": "code",
-      "norm_label": "injectableasoptions",
-      "source_file": "src/decorator/injectable-as.decorator.ts",
-      "source_location": "L3"
-    },
-    {
       "id": "tests_factory_class_factory_classes_spec_emailport",
       "label": "EmailPort",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "file_type": "code",
       "norm_label": "emailport",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -681,7 +693,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "file_type": "code",
       "norm_label": "mockemailadapter",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -693,7 +705,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "file_type": "code",
       "norm_label": "smtpemailadapter",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -710,30 +722,6 @@
       "norm_label": "nextdicontainer",
       "source_file": "src/core/container.ts",
       "source_location": "L17"
-    },
-    {
-      "id": "src_core_factory_nextdiapplicationcontext",
-      "label": "NextDiApplicationContext",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "nextdiapplicationcontext",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L6"
-    },
-    {
-      "id": "src_core_factory_nextdifactory",
-      "label": "NextDiFactory",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "nextdifactory",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L49"
     },
     {
       "id": "src_core_module_ref_moduleref",
@@ -772,36 +760,12 @@
       "source_location": "L7"
     },
     {
-      "id": "src_factory_class_auto_injectable_module_resolvedproviders",
-      "label": "ResolvedProviders",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "resolvedproviders",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_react_provider_nextdiproviderprops",
-      "label": "NextDiProviderProps",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "nextdiproviderprops",
-      "source_file": "src/react/provider.tsx",
-      "source_location": "L7"
-    },
-    {
       "id": "tests_core_container_spec_finduserusecase",
       "label": "FindUserUseCase",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 20,
+      "community": 22,
       "file_type": "code",
       "norm_label": "finduserusecase",
       "source_file": "tests/core/container.spec.ts",
@@ -813,7 +777,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 23,
       "file_type": "code",
       "norm_label": "paymentport",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -825,11 +789,47 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 23,
       "file_type": "code",
       "norm_label": "stripeadapter",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
       "source_location": "L15"
+    },
+    {
+      "id": "src_decorator_injectable_as_decorator_injectableasdecorator",
+      "label": "InjectableAsDecorator",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "injectableasdecorator",
+      "source_file": "src/decorator/injectable-as.decorator.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_decorator_injectable_as_decorator_injectableasmetadata",
+      "label": "InjectableAsMetadata",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "injectableasmetadata",
+      "source_file": "src/decorator/injectable-as.decorator.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_decorator_injectable_as_decorator_injectableasoptions",
+      "label": "InjectableAsOptions",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "injectableasoptions",
+      "source_file": "src/decorator/injectable-as.decorator.ts",
+      "source_location": "L3"
     },
     {
       "id": "tests_decorator_decorators_spec_adaptera",
@@ -1408,66 +1408,11 @@
       "source_location": "L49"
     },
     {
-      "id": "src_factory_class_auto_injectable_module_autoinjectablemodulefn_resolveproviders",
-      "label": ".resolveProviders()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": ".resolveproviders()",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L57"
-    },
-    {
-      "id": "src_factory_class_auto_injectable_module_resolveproviders",
-      "label": "resolveProviders()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "resolveproviders()",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L26"
-    },
-    {
-      "id": "src_factory_class_configurable_module_configurablemodule",
-      "label": "ConfigurableModule()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "configurablemodule()",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L38"
-    },
-    {
-      "id": "src_factory_class_selectable_module_hasforrootasync_forrootasync",
-      "label": ".forRootAsync()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": ".forrootasync()",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L9"
-    },
-    {
-      "id": "src_factory_class_selectable_module_selectablemodule",
-      "label": "SelectableModule()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "selectablemodule()",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L77"
-    },
-    {
       "id": "src_api_get_get",
       "label": "get()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "get()",
       "source_file": "src/api/get.ts",
@@ -1478,18 +1423,62 @@
       "label": "inject()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "inject()",
       "source_file": "src/api/inject.ts",
       "source_location": "L8"
     },
     {
+      "id": "src_core_factory_nextdiapplicationcontext_close",
+      "label": ".close()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": ".close()",
+      "source_file": "src/core/factory.ts",
+      "source_location": "L37"
+    },
+    {
+      "id": "src_core_factory_nextdiapplicationcontext_constructor",
+      "label": ".constructor()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": ".constructor()",
+      "source_file": "src/core/factory.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_core_factory_nextdiapplicationcontext_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "src/core/factory.ts",
+      "source_location": "L44"
+    },
+    {
+      "id": "src_core_factory_nextdifactory_createapplicationcontext",
+      "label": ".createApplicationContext()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": ".createapplicationcontext()",
+      "source_file": "src/core/factory.ts",
+      "source_location": "L53"
+    },
+    {
       "id": "src_next_global_container_clearglobalcontainer",
       "label": "clearGlobalContainer()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "clearglobalcontainer()",
       "source_file": "src/next/global-container.ts",
@@ -1500,7 +1489,7 @@
       "label": "getGlobalContainer()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "getglobalcontainer()",
       "source_file": "src/next/global-container.ts",
@@ -1511,7 +1500,7 @@
       "label": "hasGlobalContainer()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "hasglobalcontainer()",
       "source_file": "src/next/global-container.ts",
@@ -1522,7 +1511,7 @@
       "label": "setGlobalContainer()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "setglobalcontainer()",
       "source_file": "src/next/global-container.ts",
@@ -1533,7 +1522,7 @@
       "label": "registerNextDi()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "registernextdi()",
       "source_file": "src/next/instrumentation-hook.ts",
@@ -1544,7 +1533,7 @@
       "label": "withNextDi()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "withnextdi()",
       "source_file": "src/next/with-next-di.ts",
@@ -1555,7 +1544,7 @@
       "label": "NextDiProvider()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "nextdiprovider()",
       "source_file": "src/react/provider.tsx",
@@ -1566,7 +1555,7 @@
       "label": "useNextDiContext()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "usenextdicontext()",
       "source_file": "src/react/provider.tsx",
@@ -1577,7 +1566,7 @@
       "label": "useInject()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "useinject()",
       "source_file": "src/react/use-inject.ts",
@@ -1588,7 +1577,7 @@
       "label": "withInject()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "withinject()",
       "source_file": "src/react/with-inject.tsx",
@@ -1599,18 +1588,29 @@
       "label": ".greet()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": ".greet()",
       "source_file": "tests/api/api.spec.ts",
       "source_location": "L23"
     },
     {
+      "id": "tests_next_next_spec_bootstrap",
+      "label": "bootstrap()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "bootstrap()",
+      "source_file": "tests/next/next.spec.ts",
+      "source_location": "L44"
+    },
+    {
       "id": "tests_next_next_spec_serverservice_status",
       "label": ".status()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": ".status()",
       "source_file": "tests/next/next.spec.ts",
@@ -1621,7 +1621,7 @@
       "label": "BadComponent()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "badcomponent()",
       "source_file": "tests/react/react.spec.tsx",
@@ -1632,7 +1632,7 @@
       "label": ".getItemCount()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": ".getitemcount()",
       "source_file": "tests/react/react.spec.tsx",
@@ -1643,7 +1643,7 @@
       "label": "CartBadge()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "cartbadge()",
       "source_file": "tests/react/react.spec.tsx",
@@ -1654,11 +1654,66 @@
       "label": "PureBadge()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "purebadge()",
       "source_file": "tests/react/react.spec.tsx",
       "source_location": "L59"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_autoinjectablemodulefn_resolveproviders",
+      "label": ".resolveProviders()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": ".resolveproviders()",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L57"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_resolveproviders",
+      "label": "resolveProviders()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "resolveproviders()",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L26"
+    },
+    {
+      "id": "src_factory_class_configurable_module_configurablemodule",
+      "label": "ConfigurableModule()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "configurablemodule()",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L38"
+    },
+    {
+      "id": "src_factory_class_selectable_module_hasforrootasync_forrootasync",
+      "label": ".forRootAsync()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": ".forrootasync()",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_factory_class_selectable_module_selectablemodule",
+      "label": "SelectableModule()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "selectablemodule()",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L77"
     },
     {
       "id": "src_decorator_injectable_decorator_injectable",
@@ -1738,22 +1793,11 @@
       "source_location": "L5"
     },
     {
-      "id": "src_decorator_injectable_as_decorator_injectableasdecorator_getmetadata",
-      "label": ".getMetadata()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 14,
-      "file_type": "code",
-      "norm_label": ".getmetadata()",
-      "source_file": "src/decorator/injectable-as.decorator.ts",
-      "source_location": "L21"
-    },
-    {
       "id": "tests_factory_class_factory_classes_spec_mockemailadapter_send",
       "label": ".send()",
       "_callable": true,
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "file_type": "code",
       "norm_label": ".send()",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -1764,7 +1808,7 @@
       "label": ".send()",
       "_callable": true,
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "file_type": "code",
       "norm_label": ".send()",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -1870,28 +1914,6 @@
       "source_location": "L179"
     },
     {
-      "id": "src_core_factory_nextdiapplicationcontext_close",
-      "label": ".close()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": ".close()",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L37"
-    },
-    {
-      "id": "src_core_factory_nextdiapplicationcontext_constructor",
-      "label": ".constructor()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": ".constructor()",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L7"
-    },
-    {
       "id": "src_core_factory_nextdiapplicationcontext_get",
       "label": ".get()",
       "_callable": true,
@@ -1901,17 +1923,6 @@
       "norm_label": ".get()",
       "source_file": "src/core/factory.ts",
       "source_location": "L12"
-    },
-    {
-      "id": "src_core_factory_nextdiapplicationcontext_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L44"
     },
     {
       "id": "src_core_factory_nextdiapplicationcontext_resolve",
@@ -1934,17 +1945,6 @@
       "norm_label": ".select()",
       "source_file": "src/core/factory.ts",
       "source_location": "L26"
-    },
-    {
-      "id": "src_core_factory_nextdifactory_createapplicationcontext",
-      "label": ".createApplicationContext()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": ".createapplicationcontext()",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L53"
     },
     {
       "id": "src_core_forward_ref_isforwardref",
@@ -2112,22 +2112,11 @@
       "source_location": "L20"
     },
     {
-      "id": "tests_next_next_spec_bootstrap",
-      "label": "bootstrap()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "bootstrap()",
-      "source_file": "tests/next/next.spec.ts",
-      "source_location": "L44"
-    },
-    {
       "id": "tests_core_container_spec_finduserusecase_constructor",
       "label": ".constructor()",
       "_callable": true,
       "_origin": "ast",
-      "community": 20,
+      "community": 22,
       "file_type": "code",
       "norm_label": ".constructor()",
       "source_file": "tests/core/container.spec.ts",
@@ -2138,7 +2127,7 @@
       "label": ".run()",
       "_callable": true,
       "_origin": "ast",
-      "community": 20,
+      "community": 22,
       "file_type": "code",
       "norm_label": ".run()",
       "source_file": "tests/core/container.spec.ts",
@@ -2149,7 +2138,7 @@
       "label": ".pay()",
       "_callable": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 23,
       "file_type": "code",
       "norm_label": ".pay()",
       "source_file": "tests/factory-class/factory-classes.spec.ts",
@@ -2176,6 +2165,17 @@
       "norm_label": "inject()",
       "source_file": "src/decorator/inject.decorator.ts",
       "source_location": "L11"
+    },
+    {
+      "id": "src_decorator_injectable_as_decorator_injectableasdecorator_getmetadata",
+      "label": ".getMetadata()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": ".getmetadata()",
+      "source_file": "src/decorator/injectable-as.decorator.ts",
+      "source_location": "L21"
     },
     {
       "id": "src_decorator_optional_decorator_optional",
@@ -2310,220 +2310,10 @@
       "source_location": "L64"
     },
     {
-      "id": "src_core_container",
-      "label": "container.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "container.ts",
-      "source_file": "src/core/container.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_factory",
-      "label": "factory.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "factory.ts",
-      "source_file": "src/core/factory.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_forward_ref",
-      "label": "forward-ref.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "forward-ref.ts",
-      "source_file": "src/core/forward-ref.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_index",
-      "label": "core/index.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "core/index.ts",
-      "source_file": "src/core/index.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_module_ref",
-      "label": "module-ref.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "module-ref.ts",
-      "source_file": "src/core/module-ref.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_scanner",
-      "label": "scanner.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "scanner.ts",
-      "source_file": "src/core/scanner.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_tokens",
-      "label": "tokens.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "tokens.ts",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_core_tokens_inject_metadata",
-      "label": "INJECT_METADATA",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "inject_metadata",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L65"
-    },
-    {
-      "id": "src_core_tokens_module_metadata",
-      "label": "MODULE_METADATA",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "module_metadata",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L56"
-    },
-    {
-      "id": "src_core_tokens_optional_metadata",
-      "label": "OPTIONAL_METADATA",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "optional_metadata",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L66"
-    },
-    {
-      "id": "src_core_tokens_paramtypes_metadata",
-      "label": "PARAMTYPES_METADATA",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "paramtypes_metadata",
-      "source_file": "src/core/tokens.ts",
-      "source_location": "L67"
-    },
-    {
-      "id": "src_decorator_index",
-      "label": "decorator/index.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "decorator/index.ts",
-      "source_file": "src/decorator/index.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_decorator_inject_decorator",
-      "label": "inject.decorator.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "inject.decorator.ts",
-      "source_file": "src/decorator/inject.decorator.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_decorator_module_decorator",
-      "label": "module.decorator.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "module.decorator.ts",
-      "source_file": "src/decorator/module.decorator.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_decorator_optional_decorator",
-      "label": "optional.decorator.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "optional.decorator.ts",
-      "source_file": "src/decorator/optional.decorator.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_factory_class_auto_injectable_module",
-      "label": "auto-injectable-module.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "auto-injectable-module.ts",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_factory_class_auto_injectable_module_autoinjectablemodule",
-      "label": "AutoInjectableModule",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "autoinjectablemodule",
-      "source_file": "src/factory-class/auto-injectable-module.ts",
-      "source_location": "L60"
-    },
-    {
-      "id": "src_factory_class_configurable_module",
-      "label": "configurable-module.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "configurable-module.ts",
-      "source_file": "src/factory-class/configurable-module.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_factory_class_index",
-      "label": "factory-class/index.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "factory-class/index.ts",
-      "source_file": "src/factory-class/index.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_factory_class_selectable_module",
-      "label": "selectable-module.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "selectable-module.ts",
-      "source_file": "src/factory-class/selectable-module.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_index",
-      "label": "src/index.ts",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "src/index.ts",
-      "source_file": "src/index.ts",
-      "source_location": "L1"
-    },
-    {
       "id": "src_api_get",
       "label": "get.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "get.ts",
       "source_file": "src/api/get.ts",
@@ -2533,7 +2323,7 @@
       "id": "src_api_index",
       "label": "api/index.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "api/index.ts",
       "source_file": "src/api/index.ts",
@@ -2543,7 +2333,7 @@
       "id": "src_api_inject",
       "label": "inject.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "inject.ts",
       "source_file": "src/api/inject.ts",
@@ -2553,7 +2343,7 @@
       "id": "src_core_tokens_injectable_watermark",
       "label": "INJECTABLE_WATERMARK",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "injectable_watermark",
       "source_file": "src/core/tokens.ts",
@@ -2563,7 +2353,7 @@
       "id": "src_decorator_injectable_decorator",
       "label": "injectable.decorator.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "injectable.decorator.ts",
       "source_file": "src/decorator/injectable.decorator.ts",
@@ -2573,7 +2363,7 @@
       "id": "src_next_global_container",
       "label": "global-container.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "global-container.ts",
       "source_file": "src/next/global-container.ts",
@@ -2583,7 +2373,7 @@
       "id": "src_next_global_container_global_container_key",
       "label": "GLOBAL_CONTAINER_KEY",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "global_container_key",
       "source_file": "src/next/global-container.ts",
@@ -2593,7 +2383,7 @@
       "id": "src_next_index",
       "label": "next/index.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "next/index.ts",
       "source_file": "src/next/index.ts",
@@ -2603,7 +2393,7 @@
       "id": "src_next_instrumentation_hook",
       "label": "instrumentation-hook.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "instrumentation-hook.ts",
       "source_file": "src/next/instrumentation-hook.ts",
@@ -2613,7 +2403,7 @@
       "id": "src_next_with_next_di",
       "label": "with-next-di.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "with-next-di.ts",
       "source_file": "src/next/with-next-di.ts",
@@ -2623,7 +2413,7 @@
       "id": "src_react_index",
       "label": "react/index.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "react/index.ts",
       "source_file": "src/react/index.ts",
@@ -2633,7 +2423,7 @@
       "id": "src_react_provider",
       "label": "provider.tsx",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "provider.tsx",
       "source_file": "src/react/provider.tsx",
@@ -2643,7 +2433,7 @@
       "id": "src_react_provider_nextdicontext",
       "label": "NextDiContext",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "nextdicontext",
       "source_file": "src/react/provider.tsx",
@@ -2653,7 +2443,7 @@
       "id": "src_react_use_inject",
       "label": "use-inject.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "use-inject.ts",
       "source_file": "src/react/use-inject.ts",
@@ -2663,7 +2453,7 @@
       "id": "src_react_with_inject",
       "label": "with-inject.tsx",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "with-inject.tsx",
       "source_file": "src/react/with-inject.tsx",
@@ -2673,7 +2463,7 @@
       "id": "tests_api_api_spec",
       "label": "api.spec.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "api.spec.ts",
       "source_file": "tests/api/api.spec.ts",
@@ -2683,7 +2473,7 @@
       "id": "tests_next_next_spec",
       "label": "next.spec.ts",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "next.spec.ts",
       "source_file": "tests/next/next.spec.ts",
@@ -2693,7 +2483,7 @@
       "id": "tests_react_react_spec",
       "label": "react.spec.tsx",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "code",
       "norm_label": "react.spec.tsx",
       "source_file": "tests/react/react.spec.tsx",
@@ -2703,21 +2493,251 @@
       "id": "ref_react",
       "label": "react",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L66"
+      "source_location": "L87"
     },
     {
       "id": "ref_react_dom",
       "label": "react-dom",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "file_type": "concept",
       "norm_label": "react-dom",
       "source_file": "package.json",
+      "source_location": "L88"
+    },
+    {
+      "id": "src_core_container",
+      "label": "container.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "container.ts",
+      "source_file": "src/core/container.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_factory",
+      "label": "factory.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "factory.ts",
+      "source_file": "src/core/factory.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_forward_ref",
+      "label": "forward-ref.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "forward-ref.ts",
+      "source_file": "src/core/forward-ref.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_index",
+      "label": "core/index.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "core/index.ts",
+      "source_file": "src/core/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_module_ref",
+      "label": "module-ref.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "module-ref.ts",
+      "source_file": "src/core/module-ref.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_scanner",
+      "label": "scanner.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "scanner.ts",
+      "source_file": "src/core/scanner.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_tokens",
+      "label": "tokens.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "tokens.ts",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_core_tokens_inject_metadata",
+      "label": "INJECT_METADATA",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "inject_metadata",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L65"
+    },
+    {
+      "id": "src_core_tokens_module_metadata",
+      "label": "MODULE_METADATA",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "module_metadata",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L56"
+    },
+    {
+      "id": "src_core_tokens_optional_metadata",
+      "label": "OPTIONAL_METADATA",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "optional_metadata",
+      "source_file": "src/core/tokens.ts",
+      "source_location": "L66"
+    },
+    {
+      "id": "src_core_tokens_paramtypes_metadata",
+      "label": "PARAMTYPES_METADATA",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "paramtypes_metadata",
+      "source_file": "src/core/tokens.ts",
       "source_location": "L67"
+    },
+    {
+      "id": "src_decorator_index",
+      "label": "decorator/index.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "decorator/index.ts",
+      "source_file": "src/decorator/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_decorator_inject_decorator",
+      "label": "inject.decorator.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "inject.decorator.ts",
+      "source_file": "src/decorator/inject.decorator.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_decorator_module_decorator",
+      "label": "module.decorator.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "module.decorator.ts",
+      "source_file": "src/decorator/module.decorator.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_decorator_optional_decorator",
+      "label": "optional.decorator.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "optional.decorator.ts",
+      "source_file": "src/decorator/optional.decorator.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module",
+      "label": "auto-injectable-module.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "auto-injectable-module.ts",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_factory_class_auto_injectable_module_autoinjectablemodule",
+      "label": "AutoInjectableModule",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "autoinjectablemodule",
+      "source_file": "src/factory-class/auto-injectable-module.ts",
+      "source_location": "L60"
+    },
+    {
+      "id": "src_factory_class_configurable_module",
+      "label": "configurable-module.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "configurable-module.ts",
+      "source_file": "src/factory-class/configurable-module.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_factory_class_index",
+      "label": "factory-class/index.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "factory-class/index.ts",
+      "source_file": "src/factory-class/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_factory_class_selectable_module",
+      "label": "selectable-module.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "selectable-module.ts",
+      "source_file": "src/factory-class/selectable-module.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_index",
+      "label": "src/index.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "src/index.ts",
+      "source_file": "src/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_setup",
+      "label": "setup.ts",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "setup.ts",
+      "source_file": "tests/setup.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "ref_reflect_metadata",
+      "label": "reflect-metadata",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "concept",
+      "norm_label": "reflect-metadata",
+      "source_file": "package.json",
+      "source_location": "L72"
     },
     {
       "id": "package_exports",
@@ -2727,7 +2747,7 @@
       "file_type": "code",
       "norm_label": "exports",
       "source_file": "package.json",
-      "source_location": "L20"
+      "source_location": "L37"
     },
     {
       "id": "package_exports_next",
@@ -2737,7 +2757,7 @@
       "file_type": "code",
       "norm_label": "./next",
       "source_file": "package.json",
-      "source_location": "L33"
+      "source_location": "L50"
     },
     {
       "id": "package_exports_react",
@@ -2747,7 +2767,7 @@
       "file_type": "code",
       "norm_label": "./react",
       "source_file": "package.json",
-      "source_location": "L27"
+      "source_location": "L44"
     },
     {
       "id": "package_next_default",
@@ -2757,7 +2777,7 @@
       "file_type": "code",
       "norm_label": "default",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L54"
     },
     {
       "id": "package_next_import",
@@ -2767,7 +2787,7 @@
       "file_type": "code",
       "norm_label": "import",
       "source_file": "package.json",
-      "source_location": "L35"
+      "source_location": "L52"
     },
     {
       "id": "package_next_require",
@@ -2777,7 +2797,7 @@
       "file_type": "code",
       "norm_label": "require",
       "source_file": "package.json",
-      "source_location": "L36"
+      "source_location": "L53"
     },
     {
       "id": "package_next_types",
@@ -2787,7 +2807,7 @@
       "file_type": "code",
       "norm_label": "types",
       "source_file": "package.json",
-      "source_location": "L34"
+      "source_location": "L51"
     },
     {
       "id": "package_react_default",
@@ -2797,7 +2817,7 @@
       "file_type": "code",
       "norm_label": "default",
       "source_file": "package.json",
-      "source_location": "L31"
+      "source_location": "L48"
     },
     {
       "id": "package_react_import",
@@ -2807,7 +2827,7 @@
       "file_type": "code",
       "norm_label": "import",
       "source_file": "package.json",
-      "source_location": "L29"
+      "source_location": "L46"
     },
     {
       "id": "package_react_require",
@@ -2817,7 +2837,7 @@
       "file_type": "code",
       "norm_label": "require",
       "source_file": "package.json",
-      "source_location": "L30"
+      "source_location": "L47"
     },
     {
       "id": "package_react_types",
@@ -2827,7 +2847,7 @@
       "file_type": "code",
       "norm_label": "types",
       "source_file": "package.json",
-      "source_location": "L28"
+      "source_location": "L45"
     },
     {
       "id": "package_scripts",
@@ -2837,7 +2857,7 @@
       "file_type": "code",
       "norm_label": "scripts",
       "source_file": "package.json",
-      "source_location": "L40"
+      "source_location": "L61"
     },
     {
       "id": "package_scripts_build",
@@ -2847,7 +2867,7 @@
       "file_type": "code",
       "norm_label": "build",
       "source_file": "package.json",
-      "source_location": "L42"
+      "source_location": "L63"
     },
     {
       "id": "package_scripts_check",
@@ -2857,7 +2877,7 @@
       "file_type": "code",
       "norm_label": "check",
       "source_file": "package.json",
-      "source_location": "L46"
+      "source_location": "L67"
     },
     {
       "id": "package_scripts_format",
@@ -2867,7 +2887,7 @@
       "file_type": "code",
       "norm_label": "format",
       "source_file": "package.json",
-      "source_location": "L43"
+      "source_location": "L64"
     },
     {
       "id": "package_scripts_lint",
@@ -2877,7 +2897,7 @@
       "file_type": "code",
       "norm_label": "lint",
       "source_file": "package.json",
-      "source_location": "L44"
+      "source_location": "L65"
     },
     {
       "id": "package_scripts_lint_ci",
@@ -2887,7 +2907,7 @@
       "file_type": "code",
       "norm_label": "lint:ci",
       "source_file": "package.json",
-      "source_location": "L45"
+      "source_location": "L66"
     },
     {
       "id": "package_scripts_prepare",
@@ -2897,7 +2917,7 @@
       "file_type": "code",
       "norm_label": "prepare",
       "source_file": "package.json",
-      "source_location": "L41"
+      "source_location": "L62"
     },
     {
       "id": "package_scripts_test",
@@ -2907,7 +2927,7 @@
       "file_type": "code",
       "norm_label": "test",
       "source_file": "package.json",
-      "source_location": "L47"
+      "source_location": "L68"
     },
     {
       "id": "package_scripts_test_watch",
@@ -2917,7 +2937,7 @@
       "file_type": "code",
       "norm_label": "test:watch",
       "source_file": "package.json",
-      "source_location": "L48"
+      "source_location": "L69"
     },
     {
       "id": "tests_smoke_spec",
@@ -2947,7 +2967,7 @@
       "file_type": "concept",
       "norm_label": "unplugin-swc",
       "source_file": "package.json",
-      "source_location": "L70"
+      "source_location": "L91"
     },
     {
       "id": "ref_vitest",
@@ -2957,77 +2977,97 @@
       "file_type": "concept",
       "norm_label": "vitest",
       "source_file": "package.json",
-      "source_location": "L71"
-    },
-    {
-      "id": "src_decorator_injectable_as_decorator",
-      "label": "injectable-as.decorator.ts",
-      "_origin": "ast",
-      "community": 14,
-      "file_type": "code",
-      "norm_label": "injectable-as.decorator.ts",
-      "source_file": "src/decorator/injectable-as.decorator.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_decorator_injectable_as_decorator_injectable_as_key",
-      "label": "INJECTABLE_AS_KEY",
-      "_origin": "ast",
-      "community": 14,
-      "file_type": "code",
-      "norm_label": "injectable_as_key",
-      "source_file": "src/decorator/injectable-as.decorator.ts",
-      "source_location": "L24"
+      "source_location": "L92"
     },
     {
       "id": "package_next_optional",
       "label": "optional",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "file_type": "code",
       "norm_label": "optional",
       "source_file": "package.json",
-      "source_location": "L79"
+      "source_location": "L100"
     },
     {
       "id": "package_peerdependenciesmeta",
       "label": "peerDependenciesMeta",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "file_type": "code",
       "norm_label": "peerdependenciesmeta",
       "source_file": "package.json",
-      "source_location": "L77"
+      "source_location": "L98"
     },
     {
       "id": "package_peerdependenciesmeta_next",
       "label": "next",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "file_type": "code",
       "norm_label": "next",
       "source_file": "package.json",
-      "source_location": "L78"
+      "source_location": "L99"
     },
     {
       "id": "package_peerdependenciesmeta_react",
       "label": "react",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "file_type": "code",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L81"
+      "source_location": "L102"
     },
     {
       "id": "package_react_optional",
       "label": "optional",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "file_type": "code",
       "norm_label": "optional",
       "source_file": "package.json",
-      "source_location": "L82"
+      "source_location": "L103"
+    },
+    {
+      "id": "package_author",
+      "label": "author",
+      "_origin": "ast",
+      "community": 16,
+      "file_type": "code",
+      "norm_label": "author",
+      "source_file": "package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "package_author_email",
+      "label": "email",
+      "_origin": "ast",
+      "community": 16,
+      "file_type": "code",
+      "norm_label": "email",
+      "source_file": "package.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "package_author_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 16,
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": "package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "package_author_url",
+      "label": "url",
+      "_origin": "ast",
+      "community": 16,
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": "package.json",
+      "source_location": "L22"
     },
     {
       "id": "tsdown_config",
@@ -3067,7 +3107,7 @@
       "file_type": "concept",
       "norm_label": "tsdown",
       "source_file": "package.json",
-      "source_location": "L68"
+      "source_location": "L89"
     },
     {
       "id": "commitlint_config",
@@ -3097,7 +3137,7 @@
       "file_type": "concept",
       "norm_label": "@commitlint/types",
       "source_file": "package.json",
-      "source_location": "L56"
+      "source_location": "L77"
     },
     {
       "id": "package_peerdependencies",
@@ -3107,7 +3147,7 @@
       "file_type": "code",
       "norm_label": "peerdependencies",
       "source_file": "package.json",
-      "source_location": "L73"
+      "source_location": "L94"
     },
     {
       "id": "package_peerdependencies_next",
@@ -3117,7 +3157,7 @@
       "file_type": "code",
       "norm_label": "next",
       "source_file": "package.json",
-      "source_location": "L74"
+      "source_location": "L95"
     },
     {
       "id": "package_peerdependencies_react",
@@ -3127,47 +3167,127 @@
       "file_type": "code",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L75"
+      "source_location": "L96"
+    },
+    {
+      "id": "package_publishconfig",
+      "label": "publishConfig",
+      "_origin": "ast",
+      "community": 20,
+      "file_type": "code",
+      "norm_label": "publishconfig",
+      "source_file": "package.json",
+      "source_location": "L57"
+    },
+    {
+      "id": "package_publishconfig_access",
+      "label": "access",
+      "_origin": "ast",
+      "community": 20,
+      "file_type": "code",
+      "norm_label": "access",
+      "source_file": "package.json",
+      "source_location": "L58"
+    },
+    {
+      "id": "package_publishconfig_provenance",
+      "label": "provenance",
+      "_origin": "ast",
+      "community": 20,
+      "file_type": "code",
+      "norm_label": "provenance",
+      "source_file": "package.json",
+      "source_location": "L59"
+    },
+    {
+      "id": "package_repository",
+      "label": "repository",
+      "_origin": "ast",
+      "community": 21,
+      "file_type": "code",
+      "norm_label": "repository",
+      "source_file": "package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "package_repository_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 21,
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "package.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "package_repository_url",
+      "label": "url",
+      "_origin": "ast",
+      "community": 21,
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": "package.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "package_bugs",
+      "label": "bugs",
+      "_origin": "ast",
+      "community": 24,
+      "file_type": "code",
+      "norm_label": "bugs",
+      "source_file": "package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "package_bugs_url",
+      "label": "url",
+      "_origin": "ast",
+      "community": 24,
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": "package.json",
+      "source_location": "L16"
     },
     {
       "id": "package_dependencies",
       "label": "dependencies",
       "_origin": "ast",
-      "community": 22,
+      "community": 25,
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "package.json",
-      "source_location": "L50"
+      "source_location": "L71"
     },
     {
       "id": "package_dependencies_reflect_metadata",
       "label": "reflect-metadata",
       "_origin": "ast",
-      "community": 22,
+      "community": 25,
       "file_type": "code",
       "norm_label": "reflect-metadata",
       "source_file": "package.json",
-      "source_location": "L51"
+      "source_location": "L72"
     },
     {
-      "id": "tests_setup",
-      "label": "setup.ts",
+      "id": "src_decorator_injectable_as_decorator",
+      "label": "injectable-as.decorator.ts",
       "_origin": "ast",
-      "community": 23,
+      "community": 3,
       "file_type": "code",
-      "norm_label": "setup.ts",
-      "source_file": "tests/setup.ts",
+      "norm_label": "injectable-as.decorator.ts",
+      "source_file": "src/decorator/injectable-as.decorator.ts",
       "source_location": "L1"
     },
     {
-      "id": "ref_reflect_metadata",
-      "label": "reflect-metadata",
+      "id": "src_decorator_injectable_as_decorator_injectable_as_key",
+      "label": "INJECTABLE_AS_KEY",
       "_origin": "ast",
-      "community": 23,
-      "file_type": "concept",
-      "norm_label": "reflect-metadata",
-      "source_file": "package.json",
-      "source_location": "L51"
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "injectable_as_key",
+      "source_file": "src/decorator/injectable-as.decorator.ts",
+      "source_location": "L24"
     },
     {
       "id": "src_decorator_injectable_as_decorator_injectableas",
@@ -3190,280 +3310,50 @@
       "source_location": "L1"
     },
     {
-      "id": "tsconfig",
-      "label": "tsconfig.json",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "tsconfig.json",
-      "source_file": "tsconfig.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "tsconfig_compileroptions",
-      "label": "compilerOptions",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "compileroptions",
-      "source_file": "tsconfig.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "tsconfig_compileroptions_baseurl",
-      "label": "baseUrl",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "baseurl",
-      "source_file": "tsconfig.json",
-      "source_location": "L18"
-    },
-    {
-      "id": "tsconfig_compileroptions_declaration",
-      "label": "declaration",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "declaration",
-      "source_file": "tsconfig.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "tsconfig_compileroptions_declarationmap",
-      "label": "declarationMap",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "declarationmap",
-      "source_file": "tsconfig.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "tsconfig_compileroptions_emitdecoratormetadata",
-      "label": "emitDecoratorMetadata",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "emitdecoratormetadata",
-      "source_file": "tsconfig.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "tsconfig_compileroptions_esmoduleinterop",
-      "label": "esModuleInterop",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "esmoduleinterop",
-      "source_file": "tsconfig.json",
-      "source_location": "L13"
-    },
-    {
-      "id": "tsconfig_compileroptions_experimentaldecorators",
-      "label": "experimentalDecorators",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "experimentaldecorators",
-      "source_file": "tsconfig.json",
-      "source_location": "L11"
-    },
-    {
-      "id": "tsconfig_compileroptions_isolatedmodules",
-      "label": "isolatedModules",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "isolatedmodules",
-      "source_file": "tsconfig.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "tsconfig_compileroptions_jsx",
-      "label": "jsx",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "jsx",
-      "source_file": "tsconfig.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "tsconfig_compileroptions_lib",
-      "label": "lib",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "lib",
-      "source_file": "tsconfig.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "tsconfig_compileroptions_module",
-      "label": "module",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "module",
-      "source_file": "tsconfig.json",
-      "source_location": "L4"
-    },
-    {
-      "id": "tsconfig_compileroptions_moduleresolution",
-      "label": "moduleResolution",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "moduleresolution",
-      "source_file": "tsconfig.json",
-      "source_location": "L5"
-    },
-    {
-      "id": "tsconfig_compileroptions_paths",
-      "label": "paths",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "paths",
-      "source_file": "tsconfig.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "tsconfig_compileroptions_resolvejsonmodule",
-      "label": "resolveJsonModule",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "resolvejsonmodule",
-      "source_file": "tsconfig.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "tsconfig_compileroptions_skiplibcheck",
-      "label": "skipLibCheck",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "skiplibcheck",
-      "source_file": "tsconfig.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "tsconfig_compileroptions_sourcemap",
-      "label": "sourceMap",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "sourcemap",
-      "source_file": "tsconfig.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "tsconfig_compileroptions_strict",
-      "label": "strict",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "strict",
-      "source_file": "tsconfig.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "tsconfig_compileroptions_target",
-      "label": "target",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "target",
-      "source_file": "tsconfig.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "tsconfig_exclude",
-      "label": "exclude",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "exclude",
-      "source_file": "tsconfig.json",
-      "source_location": "L26"
-    },
-    {
-      "id": "tsconfig_include",
-      "label": "include",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "include",
-      "source_file": "tsconfig.json",
-      "source_location": "L25"
-    },
-    {
-      "id": "tsconfig_paths_next_di",
-      "label": "next-di",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "next-di",
-      "source_file": "tsconfig.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "tsconfig_paths_next_di_next",
-      "label": "next-di/next",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "next-di/next",
-      "source_file": "tsconfig.json",
-      "source_location": "L22"
-    },
-    {
-      "id": "tsconfig_paths_next_di_react",
-      "label": "next-di/react",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "code",
-      "norm_label": "next-di/react",
-      "source_file": "tsconfig.json",
-      "source_location": "L21"
-    },
-    {
       "id": "package",
       "label": "package.json",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "package.json",
       "source_file": "package.json",
       "source_location": "L1"
     },
     {
-      "id": "package_author",
-      "label": "author",
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": "author",
-      "source_file": "package.json",
-      "source_location": "L15"
-    },
-    {
       "id": "package_description",
       "label": "description",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "description",
       "source_file": "package.json",
       "source_location": "L4"
     },
     {
+      "id": "package_files",
+      "label": "files",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "files",
+      "source_file": "package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "package_homepage",
+      "label": "homepage",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "homepage",
+      "source_file": "package.json",
+      "source_location": "L14"
+    },
+    {
       "id": "package_keywords",
       "label": "keywords",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "keywords",
       "source_file": "package.json",
@@ -3473,37 +3363,37 @@
       "id": "package_license",
       "label": "license",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "license",
       "source_file": "package.json",
-      "source_location": "L14"
+      "source_location": "L18"
     },
     {
       "id": "package_main",
       "label": "main",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "main",
       "source_file": "package.json",
-      "source_location": "L17"
+      "source_location": "L34"
     },
     {
       "id": "package_module",
       "label": "module",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "module",
       "source_file": "package.json",
-      "source_location": "L18"
+      "source_location": "L35"
     },
     {
       "id": "package_name",
       "label": "name",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "name",
       "source_file": "package.json",
@@ -3513,27 +3403,27 @@
       "id": "package_type",
       "label": "type",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "type",
       "source_file": "package.json",
-      "source_location": "L16"
+      "source_location": "L33"
     },
     {
       "id": "package_types",
       "label": "types",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "types",
       "source_file": "package.json",
-      "source_location": "L19"
+      "source_location": "L36"
     },
     {
       "id": "package_version",
       "label": "version",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "code",
       "norm_label": "version",
       "source_file": "package.json",
@@ -3543,121 +3433,361 @@
       "id": "ref_commitlint_cli",
       "label": "@commitlint/cli",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "@commitlint/cli",
       "source_file": "package.json",
-      "source_location": "L54"
+      "source_location": "L75"
     },
     {
       "id": "ref_commitlint_config_conventional",
       "label": "@commitlint/config-conventional",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "@commitlint/config-conventional",
       "source_file": "package.json",
-      "source_location": "L55"
+      "source_location": "L76"
     },
     {
       "id": "ref_eslint_plugin_sonarjs",
       "label": "eslint-plugin-sonarjs",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "eslint-plugin-sonarjs",
       "source_file": "package.json",
-      "source_location": "L61"
+      "source_location": "L82"
     },
     {
       "id": "ref_lefthook",
       "label": "lefthook",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "lefthook",
       "source_file": "package.json",
-      "source_location": "L62"
+      "source_location": "L83"
     },
     {
       "id": "ref_next",
       "label": "next",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "next",
       "source_file": "package.json",
-      "source_location": "L63"
+      "source_location": "L84"
     },
     {
       "id": "ref_oxfmt",
       "label": "oxfmt",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "oxfmt",
       "source_file": "package.json",
-      "source_location": "L64"
+      "source_location": "L85"
     },
     {
       "id": "ref_oxlint",
       "label": "oxlint",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "oxlint",
       "source_file": "package.json",
-      "source_location": "L65"
+      "source_location": "L86"
     },
     {
       "id": "ref_swc_core",
       "label": "@swc/core",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "@swc/core",
       "source_file": "package.json",
-      "source_location": "L57"
+      "source_location": "L78"
     },
     {
       "id": "ref_types_node",
       "label": "@types/node",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L58"
+      "source_location": "L79"
     },
     {
       "id": "ref_types_react",
       "label": "@types/react",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "@types/react",
       "source_file": "package.json",
-      "source_location": "L59"
+      "source_location": "L80"
     },
     {
       "id": "ref_types_react_dom",
       "label": "@types/react-dom",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "@types/react-dom",
       "source_file": "package.json",
-      "source_location": "L60"
+      "source_location": "L81"
     },
     {
       "id": "ref_typescript",
       "label": "typescript",
       "_origin": "ast",
-      "community": 5,
+      "community": 4,
       "file_type": "concept",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L69"
+      "source_location": "L90"
+    },
+    {
+      "id": "tsconfig",
+      "label": "tsconfig.json",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "tsconfig.json",
+      "source_file": "tsconfig.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "compileroptions",
+      "source_file": "tsconfig.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "tsconfig_compileroptions_baseurl",
+      "label": "baseUrl",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "baseurl",
+      "source_file": "tsconfig.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "tsconfig_compileroptions_declaration",
+      "label": "declaration",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "declaration",
+      "source_file": "tsconfig.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "tsconfig_compileroptions_declarationmap",
+      "label": "declarationMap",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "declarationmap",
+      "source_file": "tsconfig.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "tsconfig_compileroptions_emitdecoratormetadata",
+      "label": "emitDecoratorMetadata",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "emitdecoratormetadata",
+      "source_file": "tsconfig.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "tsconfig_compileroptions_esmoduleinterop",
+      "label": "esModuleInterop",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "esmoduleinterop",
+      "source_file": "tsconfig.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "tsconfig_compileroptions_experimentaldecorators",
+      "label": "experimentalDecorators",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "experimentaldecorators",
+      "source_file": "tsconfig.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "tsconfig_compileroptions_isolatedmodules",
+      "label": "isolatedModules",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "isolatedmodules",
+      "source_file": "tsconfig.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "tsconfig_compileroptions_jsx",
+      "label": "jsx",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "jsx",
+      "source_file": "tsconfig.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "tsconfig_compileroptions_lib",
+      "label": "lib",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "lib",
+      "source_file": "tsconfig.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "tsconfig_compileroptions_module",
+      "label": "module",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "module",
+      "source_file": "tsconfig.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "tsconfig_compileroptions_moduleresolution",
+      "label": "moduleResolution",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "moduleresolution",
+      "source_file": "tsconfig.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "tsconfig_compileroptions_paths",
+      "label": "paths",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "paths",
+      "source_file": "tsconfig.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "tsconfig_compileroptions_resolvejsonmodule",
+      "label": "resolveJsonModule",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "resolvejsonmodule",
+      "source_file": "tsconfig.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "tsconfig_compileroptions_skiplibcheck",
+      "label": "skipLibCheck",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "skiplibcheck",
+      "source_file": "tsconfig.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "tsconfig_compileroptions_sourcemap",
+      "label": "sourceMap",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "sourcemap",
+      "source_file": "tsconfig.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "tsconfig_compileroptions_strict",
+      "label": "strict",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "strict",
+      "source_file": "tsconfig.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "tsconfig_compileroptions_target",
+      "label": "target",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "target",
+      "source_file": "tsconfig.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "tsconfig_exclude",
+      "label": "exclude",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "exclude",
+      "source_file": "tsconfig.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "tsconfig_include",
+      "label": "include",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "include",
+      "source_file": "tsconfig.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "tsconfig_paths_next_di",
+      "label": "next-di",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "next-di",
+      "source_file": "tsconfig.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "tsconfig_paths_next_di_next",
+      "label": "next-di/next",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "next-di/next",
+      "source_file": "tsconfig.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "tsconfig_paths_next_di_react",
+      "label": "next-di/react",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "next-di/react",
+      "source_file": "tsconfig.json",
+      "source_location": "L21"
     },
     {
       "id": "tests_factory_class_factory_classes_spec",
@@ -3677,7 +3807,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "package.json",
-      "source_location": "L53"
+      "source_location": "L74"
     },
     {
       "id": "package_devdependencies_commitlint_cli",
@@ -3687,7 +3817,7 @@
       "file_type": "code",
       "norm_label": "@commitlint/cli",
       "source_file": "package.json",
-      "source_location": "L54"
+      "source_location": "L75"
     },
     {
       "id": "package_devdependencies_commitlint_config_conventional",
@@ -3697,7 +3827,7 @@
       "file_type": "code",
       "norm_label": "@commitlint/config-conventional",
       "source_file": "package.json",
-      "source_location": "L55"
+      "source_location": "L76"
     },
     {
       "id": "package_devdependencies_commitlint_types",
@@ -3707,7 +3837,7 @@
       "file_type": "code",
       "norm_label": "@commitlint/types",
       "source_file": "package.json",
-      "source_location": "L56"
+      "source_location": "L77"
     },
     {
       "id": "package_devdependencies_eslint_plugin_sonarjs",
@@ -3717,7 +3847,7 @@
       "file_type": "code",
       "norm_label": "eslint-plugin-sonarjs",
       "source_file": "package.json",
-      "source_location": "L61"
+      "source_location": "L82"
     },
     {
       "id": "package_devdependencies_lefthook",
@@ -3727,7 +3857,7 @@
       "file_type": "code",
       "norm_label": "lefthook",
       "source_file": "package.json",
-      "source_location": "L62"
+      "source_location": "L83"
     },
     {
       "id": "package_devdependencies_next",
@@ -3737,7 +3867,7 @@
       "file_type": "code",
       "norm_label": "next",
       "source_file": "package.json",
-      "source_location": "L63"
+      "source_location": "L84"
     },
     {
       "id": "package_devdependencies_oxfmt",
@@ -3747,7 +3877,7 @@
       "file_type": "code",
       "norm_label": "oxfmt",
       "source_file": "package.json",
-      "source_location": "L64"
+      "source_location": "L85"
     },
     {
       "id": "package_devdependencies_oxlint",
@@ -3757,7 +3887,7 @@
       "file_type": "code",
       "norm_label": "oxlint",
       "source_file": "package.json",
-      "source_location": "L65"
+      "source_location": "L86"
     },
     {
       "id": "package_devdependencies_react",
@@ -3767,7 +3897,7 @@
       "file_type": "code",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L66"
+      "source_location": "L87"
     },
     {
       "id": "package_devdependencies_react_dom",
@@ -3777,7 +3907,7 @@
       "file_type": "code",
       "norm_label": "react-dom",
       "source_file": "package.json",
-      "source_location": "L67"
+      "source_location": "L88"
     },
     {
       "id": "package_devdependencies_swc_core",
@@ -3787,7 +3917,7 @@
       "file_type": "code",
       "norm_label": "@swc/core",
       "source_file": "package.json",
-      "source_location": "L57"
+      "source_location": "L78"
     },
     {
       "id": "package_devdependencies_tsdown",
@@ -3797,7 +3927,7 @@
       "file_type": "code",
       "norm_label": "tsdown",
       "source_file": "package.json",
-      "source_location": "L68"
+      "source_location": "L89"
     },
     {
       "id": "package_devdependencies_types_node",
@@ -3807,7 +3937,7 @@
       "file_type": "code",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L58"
+      "source_location": "L79"
     },
     {
       "id": "package_devdependencies_types_react",
@@ -3817,7 +3947,7 @@
       "file_type": "code",
       "norm_label": "@types/react",
       "source_file": "package.json",
-      "source_location": "L59"
+      "source_location": "L80"
     },
     {
       "id": "package_devdependencies_types_react_dom",
@@ -3827,7 +3957,7 @@
       "file_type": "code",
       "norm_label": "@types/react-dom",
       "source_file": "package.json",
-      "source_location": "L60"
+      "source_location": "L81"
     },
     {
       "id": "package_devdependencies_typescript",
@@ -3837,7 +3967,7 @@
       "file_type": "code",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L69"
+      "source_location": "L90"
     },
     {
       "id": "package_devdependencies_unplugin_swc",
@@ -3847,7 +3977,7 @@
       "file_type": "code",
       "norm_label": "unplugin-swc",
       "source_file": "package.json",
-      "source_location": "L70"
+      "source_location": "L91"
     },
     {
       "id": "package_devdependencies_vitest",
@@ -3857,7 +3987,7 @@
       "file_type": "code",
       "norm_label": "vitest",
       "source_file": "package.json",
-      "source_location": "L71"
+      "source_location": "L92"
     },
     {
       "id": "tests_core_container_spec",
@@ -3883,7 +4013,7 @@
       "id": "src_api_index_get",
       "label": "src_api_index_get",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_api_index_get",
@@ -3894,7 +4024,7 @@
       "id": "src_api_index_inject",
       "label": "src_api_index_inject",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_api_index_inject",
@@ -3905,7 +4035,7 @@
       "id": "src_next_index_registernextdi",
       "label": "src_next_index_registernextdi",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_next_index_registernextdi",
@@ -3916,7 +4046,7 @@
       "id": "src_next_index_withnextdi",
       "label": "src_next_index_withnextdi",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_next_index_withnextdi",
@@ -3927,7 +4057,7 @@
       "id": "src_react_index_nextdiprovider",
       "label": "src_react_index_nextdiprovider",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_react_index_nextdiprovider",
@@ -3938,7 +4068,7 @@
       "id": "src_react_index_useinject",
       "label": "src_react_index_useinject",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_react_index_useinject",
@@ -3949,7 +4079,7 @@
       "id": "src_react_index_withinject",
       "label": "src_react_index_withinject",
       "_origin": "semantic",
-      "community": 1,
+      "community": 0,
       "external": true,
       "file_type": "concept",
       "norm_label": "src_react_index_withinject",
@@ -6015,7 +6145,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L51",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -6027,7 +6157,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L54",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -6039,7 +6169,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L55",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -6051,7 +6181,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L56",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -6063,7 +6193,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L57",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -6075,7 +6205,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L58",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -6087,7 +6217,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L59",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -6099,7 +6229,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L60",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -6111,7 +6241,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L61",
+      "source_location": "L82",
       "weight": 1.0
     },
     {
@@ -6123,7 +6253,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L62",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -6135,7 +6265,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L64",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -6147,7 +6277,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L65",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -6159,7 +6289,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L67",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
@@ -6171,7 +6301,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L68",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -6183,7 +6313,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L69",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
@@ -6195,7 +6325,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L70",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -6207,7 +6337,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L71",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -6219,7 +6349,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L74",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -6231,7 +6361,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L75",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -9770,7 +9900,7 @@
     },
     {
       "source": "package",
-      "target": "package_license",
+      "target": "package_homepage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9781,7 +9911,7 @@
     },
     {
       "source": "package",
-      "target": "package_author",
+      "target": "package_bugs",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9792,29 +9922,7 @@
     },
     {
       "source": "package",
-      "target": "package_type",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L16",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_main",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_module",
+      "target": "package_license",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9825,7 +9933,7 @@
     },
     {
       "source": "package",
-      "target": "package_types",
+      "target": "package_author",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9847,13 +9955,24 @@
     },
     {
       "source": "package",
-      "target": "package_exports",
+      "target": "package_repository",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_files",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -9869,6 +9988,61 @@
     },
     {
       "source": "package",
+      "target": "package_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_module",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_types",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_exports",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
       "target": "package_description",
       "relation": "contains",
       "_origin": "ast",
@@ -9876,17 +10050,6 @@
       "confidence_score": 1.0,
       "source_file": "package.json",
       "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_scripts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -9902,13 +10065,35 @@
     },
     {
       "source": "package",
+      "target": "package_publishconfig",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
       "target": "package_dependencies",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L50",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -9919,7 +10104,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L53",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -9930,7 +10115,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L73",
+      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -9941,7 +10126,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L77",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "package_author",
+      "target": "package_author_name",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "package_author",
+      "target": "package_author_email",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "package_author",
+      "target": "package_author_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "package_bugs",
+      "target": "package_bugs_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -9952,7 +10181,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L51",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -9963,7 +10192,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L54",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -9974,7 +10203,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L55",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -9985,7 +10214,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L56",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -9996,7 +10225,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L57",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -10007,7 +10236,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L58",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -10018,7 +10247,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L59",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -10029,7 +10258,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L60",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -10040,7 +10269,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L61",
+      "source_location": "L82",
       "weight": 1.0
     },
     {
@@ -10051,7 +10280,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L62",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -10062,7 +10291,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L63",
+      "source_location": "L84",
       "weight": 1.0
     },
     {
@@ -10073,7 +10302,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L64",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -10084,7 +10313,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L65",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -10095,7 +10324,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L66",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -10106,7 +10335,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L67",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
@@ -10117,7 +10346,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L68",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -10128,7 +10357,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L69",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
@@ -10139,7 +10368,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L70",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -10150,7 +10379,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L71",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -10161,7 +10390,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -10172,7 +10401,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L33",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -10183,7 +10412,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -10194,7 +10423,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L35",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -10205,7 +10434,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L36",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -10216,7 +10445,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -10227,7 +10456,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -10238,7 +10467,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -10249,7 +10478,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -10260,7 +10489,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L48",
       "weight": 1.0
     },
     {
@@ -10271,7 +10500,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L74",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -10282,18 +10511,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L75",
-      "weight": 1.0
-    },
-    {
-      "source": "package_peerdependenciesmeta",
-      "target": "package_peerdependenciesmeta_next",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L78",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -10304,7 +10522,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L81",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "package_peerdependenciesmeta",
+      "target": "package_peerdependenciesmeta_next",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -10315,7 +10544,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L79",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -10326,7 +10555,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L82",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "package_publishconfig",
+      "target": "package_publishconfig_access",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "package_publishconfig",
+      "target": "package_publishconfig_provenance",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "package_repository",
+      "target": "package_repository_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "package_repository",
+      "target": "package_repository_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -10337,7 +10610,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L41",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -10348,7 +10621,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L42",
+      "source_location": "L63",
       "weight": 1.0
     },
     {
@@ -10359,7 +10632,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L43",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -10370,7 +10643,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L44",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -10381,7 +10654,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L45",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -10392,7 +10665,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L46",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -10403,7 +10676,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L47",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -10414,7 +10687,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L48",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -13176,5 +13449,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7e5b7e702ab3e519c04a5b11e9e4749979ee3d66"
+  "built_at_commit": "fcf35f530feb7ecef698007a7b6238e2d33ae59a"
 }
